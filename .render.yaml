@@ -13,3 +13,4 @@ services:
         value: <your_db_password>
     dockerContext: ./healthcare
     dockerfilePath: ./healthcare/Dockerfile
+    buildCommand: mvn clean package
